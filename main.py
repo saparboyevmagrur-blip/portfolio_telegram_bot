@@ -30,9 +30,14 @@ def aboutme_handler(message):
 
 @bot.message_handler(func=lambda m: m.text == "Loyihalarim")
 def projects_handler(message):
-    text = "Bu qism tez orada qo'shiladi"
+    text = """
+Loyihalarim
+
+Tibbiy yordam xizmati vebsayti: [Website](https://medical-assistance2.vercel.app)
+Matnni lotindan kirilga yoki kirildan lotinga o'tkazuvchi Telegram bot: [Bot](https://t.me/cyrillic_to_latin_converters_bot)
+"""
     
-    bot.send_message(message.chat.id, text)
+    bot.send_message(message.chat.id, text, parse_mode="Markdown")
 
 @bot.message_handler(func=lambda m: m.text == "Kontakt")
 def contact_handler(message):

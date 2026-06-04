@@ -1,0 +1,3 @@
+Sarlavha: "Loyihalarim"
+1. Tibbiy yordam xizmati vebsayti: https://medical-assistance2.vercel.app
+2. Matnni lotindan kirilga yoki kirildan lotinga o'tkazuvchi telegram bot: https://t.me/cyrillic_to_latin_converters_bot
